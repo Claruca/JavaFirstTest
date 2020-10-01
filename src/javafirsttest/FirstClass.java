@@ -10,6 +10,8 @@ public class FirstClass {
     
     public static void main(String[] args){
         
+        
+        //otra prueba
         String nombre = "Claruca";
         int numero1, numero2, total;
         numero1 = 8;
@@ -21,7 +23,7 @@ public class FirstClass {
             System.out.println(total);
         }
         else{
-            System.out.println("Error grande");
+            System.out.println("Error ");
         }
         
         
