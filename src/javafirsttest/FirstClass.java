@@ -10,10 +10,10 @@ public class FirstClass {
     
     public static void main(String[] args){
         
-        String nombre = "Clara";
+        String nombre = "Claruca";
         int numero1, numero2, total;
-        numero1 = 5;
-        numero2 = 6;
+        numero1 = 8;
+        numero2 = 9;
         
         total = numero1 + numero2;
         
@@ -21,7 +21,7 @@ public class FirstClass {
             System.out.println(total);
         }
         else{
-            System.out.println("Error");
+            System.out.println("Error grande");
         }
         
         
