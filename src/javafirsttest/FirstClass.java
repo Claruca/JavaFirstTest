@@ -8,11 +8,10 @@ public class FirstClass {
     
     
     
-    public static void main(String[] args){
+    public static void main(String[] args){       
         
-        
-        //otra prueba
-        String nombre = "Claruca";
+        //prueba 3
+        String nombre = "Clarusqui";
         int numero1, numero2, total;
         numero1 = 8;
         numero2 = 9;
@@ -26,6 +25,9 @@ public class FirstClass {
             System.out.println("Error ");
         }
         
+        for(int i=1; i<10; i++){
+            System.out.println(i);
+        }
         
         
     }
