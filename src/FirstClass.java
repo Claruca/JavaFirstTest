@@ -5,7 +5,7 @@
 public class FirstClass {
     public static void main(String[] args){       
       
-        String nombre = "Clara";
+        String nombres = "Clara";
         int numero1, numero2, total;
         numero1 = 6;
         numero2 = 9;
@@ -13,7 +13,7 @@ public class FirstClass {
         total = numero1 + numero2;
         
         if(numero1 < numero2){
-            System.out.println(total + " " + nombre);
+            System.out.println(total + " " + nombres);
             
         }
         else{
