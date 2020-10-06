@@ -23,6 +23,47 @@ public class FirstClass {
         
         
         
+        boolean V = true;
+        boolean F = false;
+        
+        System.out.println(V&&F);
+        System.out.println(F&&V);
+        System.out.println(V&&V);
+        System.out.println(F&&F);
+        System.out.println(V||F);
+        System.out.println(V||F);
+        System.out.println(V||F);
+        System.out.println(V||F);
+        
+        
+        int numero = 10;
+        int numero2 = 3;
+        
+        if(numero>0){
+            System.out.println(numero + "es positivo");
+        }
+        
+        if(numero<1&&numero>-1){
+            System.out.println(numero);
+        }
+        
+        
+        if(numero%2 == 0){
+            System.out.println(numero + " múltiplo de 2");
+        }
+        else{
+            System.out.println(numero + " no es múltiplo de 2");
+        }
+        
+        
+        if(numero%numero2 ==0){
+            System.out.println(numero + " múltiplo");
+        }
+        System.out.println(numero + " no es múltiplo");
+            
+        }
+        
+        
         
         /*
       
