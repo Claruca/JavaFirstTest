@@ -1,9 +1,6 @@
 package testingJava;
 
 
-import testingJava.LT;
-import testingJava.Horoscopo;
-
 
 /**
  *
@@ -44,9 +41,32 @@ public class FirstClass {
         System.out.println("Tu horóscopo chino, según el año de nacimiento es: " + horoscopo);
         
         */
-     
+        
+        //leer ASCII
+        
+        System.out.println("Introducir caracter: ");
+        char c = lector.leerCaracter();
+        if((c >= 65 && c <=90)||(c >= 97 && c <=122)){
+            if(c == 90){
+                c=90-26;
+            }
+            if(c == 122){
+                c=122-26;
+            }
+        int num = (int)c;
+        num++;
+        char newValor = (char)num;       
+        System.out.println(newValor);
+        }
+        else{
+            System.out.println("Valor incorrecto");
+        }
+        
+        
+        
+     /*
 
-     /*   String helloWorld = "Hello World";
+        String helloWorld = "Hello World";
         System.out.println(helloWorld);
 
         final double PI = 3.14;
